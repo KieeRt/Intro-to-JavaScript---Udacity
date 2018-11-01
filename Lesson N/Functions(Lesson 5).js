@@ -113,3 +113,29 @@ var cry = function crying(){
 }
 console.log(cry());
 -------------------------------------------------------------------------
+22)
+/*
+Call the emotions() function so that it prints the output you see below, 
+but instead of passing the laugh() function as an argument, 
+pass an inline function expression instead.
+*/
+/*
+ * Programming Quiz: Inline Functions (5-6)
+ */
+
+// don't change this code
+function emotions(myString, myFunc) {
+    console.log("I am " + myString + ", " + myFunc(2));
+}
+
+// your code goes here
+emotions('happy', function laugh(num){
+    var laugh='';			//Declaration of local (at annonymous function) variable 
+    for(var i=0;i<num;i++){ //loop for a num times
+        laugh += 'ha';		//Every loop add one 'ha' at laugh variable
+    }
+    return laugh +'!'; 		//at the end of loop and '!' on the end of word
+
+});
+
+
