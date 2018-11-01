@@ -78,3 +78,23 @@ function helloCat(callbackfunction) {
 	// body...
 }
 -------------------------------------------------------------------------
+20)
+/*
+Write an anonymous function expression that stores a function in a variable called "laugh" and outputs the number of "ha"s that you pass in as an argument.
+
+laugh(3);
+/*
+ * Programming Quiz: Laugh (5-4)
+ */
+
+var laugh = function(num){ //global variable take value from annonymous function 
+var laugh='';				//Declaration of local (at annonymous function) variable 
+    for(var i=0;i<num;i++){ //loop for a num times
+        laugh += 'ha';		//Every loop add one 'ha' at laugh variable
+    }
+    return laugh +'!'; //at the end of loop and '!' on the end of word
+}
+
+console.log(laugh(10));  //Recal function variable laugh with '10' like a argument 
+-------------------------------------------------------------------------
+
