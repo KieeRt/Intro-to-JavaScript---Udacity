@@ -5,4 +5,4 @@ Example:
 */
 var array =["book", "apple", "pen"];
 array.pop();
-//Output: [ book, apple]
+//Output: [ "book", "apple"]
