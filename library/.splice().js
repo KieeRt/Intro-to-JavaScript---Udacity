@@ -1,4 +1,4 @@
-Info:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+Info: src"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
 /*
 array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
 start = Index at which to start changing the array,  If negative, will begin that many elements from the end of the array 
