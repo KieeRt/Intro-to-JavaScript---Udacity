@@ -1,6 +1,16 @@
-.toFixed()  method and pass it the number of decimal points you want to use
- For example:
+Info: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed"
+//Syntax:
+ varibles.toFixed([digits])
+//A string representing the given number using fixed-point notation.
+//Examples:
  var balance = 325;
- balance.toFixed(2)// returns 325.00.
- 
- 
+ balance.toFixed(2)
+//  325.00.
+//----------------
+var balance = 325.651;
+balance.toFixed(1);
+// 325.7
+
+var balance = 325.650;
+balance.toFixed(1)
+//325.6
