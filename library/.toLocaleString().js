@@ -1,6 +1,10 @@
-Info: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString
-The toLocaleString() method converts a Date object to a string, using locale settings.
-Example:
+Info: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString"
+
+//Syntax:
+numObj.toLocaleString([locales [, options]])
+//The toLocaleString() method converts a Date object to a string, using locale settings.
+
+//Example:
 var number = 123456.789;
 
 // request a currency format
