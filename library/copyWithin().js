@@ -11,6 +11,7 @@ start:
 from where begin copying,If omitted coming from 0
 end:
 until where gonna copy, last index  excluding and if ommited copyWithin will copy until the end of array
+*/
 
 //Examples:
 array = [ 1, 2, 3];
