@@ -43,6 +43,7 @@ var new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
 The concat() method is used to merge two or more arrays. This method does not change the existing arrays,
 but instead returns a new arr
 ##### Example:
+case 1:
 ```JavaScript
 var numb1 = [1,2,3];
 var numb2 = [4,5,6];
@@ -50,8 +51,71 @@ var numb3 = [7,8,9];
 var numbW = ["x", "y"];
 numbW.concat(numb1, numb2, numb3)
 ```
+case 2:
+```
+var numb1 = [1,2,3];
+var numb2 = [4,5,6];
+var numb3 = [7,8,9];
+var numb= numb1.concat(numb2, numb3);
+```
 ##### Output:
+case 1:
 ```
 ["x", "y", 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+case 2:
+```
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+ 
+  ## copyWithin()
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
+```JavaScript 
+arr.copyWithin(target)
+arr.copyWithin(target, start)
+arr.copyWithin(target, start, end)
+```
+where write my copied value
+start: 
+from where begin copying,If omitted coming from 0
+end:
+until where gonna copy, last index  excluding and if ommited copyWithin will copy until the end of array
+##### Example:
+```JavaScript
+
+```
+##### Output:
+```
+
+```
+ 
+  ## 
+##### Syntax:[Info]()
+```JavaScript 
+
+```
+Description
+##### Example:
+```JavaScript
+
+```
+##### Output:
+```
+
+```
+ 
+  ## 
+##### Syntax:[Info]()
+```JavaScript 
+
+```
+Description
+##### Example:
+```JavaScript
+
+```
+##### Output:
+```
+
 ```
  
