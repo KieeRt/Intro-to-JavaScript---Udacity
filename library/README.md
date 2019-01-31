@@ -4,7 +4,7 @@ this all methods will explain during course on different step.
 Reason of this list is to  organize better all methods 
 
 ## push() 
-##### Syntax:[More](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 ```JavaScript 
 array.pop();
 ```
