@@ -8,12 +8,12 @@ Reason of this list is to  organize better all methods
 ```JavaScript 
 array.pop();
 ```
-#####Example:
+##### Example:
 ```JavaScript
 var array =["book", "apple", "pen"];
 array.pop();
 ```
-#####Output: [ "book", "apple"]
+##### Output: [ "book", "apple"]
 
 
 
