@@ -45,11 +45,11 @@ var numb1 = [1,2,3];
 var numb2 = [4,5,6];
 var numb3 = [7,8,9];
 var numbW = ["x", "y"];
-numbW.concat(numb1, numb2, numb3)
+numbW.concat(numb1, numb2, numb3);
 //Output:["x", "y", 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 case 2:
-```
+```JavaScript
 var numb1 = [1,2,3];
 var numb2 = [4,5,6];
 var numb3 = [7,8,9];
@@ -78,7 +78,7 @@ array.copyWithin(0,1,2);
 //Output:[ 2, 2, 3]
 ```
 case 2:
-```
+```JavaScript
 array = [ 1, 2, 3, 4, 5, 6];
 array.copyWithin(0, 4);
 //Output:[5, 6, 3, 4, 5, 6]
