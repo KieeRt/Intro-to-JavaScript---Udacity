@@ -107,10 +107,10 @@ Array(3).fill(4);                // Output: [4, 4, 4]
 ```
 
  
-  ## 
-##### Syntax:[Info]()
+  ## forEach()
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 ```JavaScript 
-
+array.forEach(function callback());
 ```
 Description
 ##### Example:
