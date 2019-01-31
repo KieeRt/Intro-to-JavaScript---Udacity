@@ -101,12 +101,14 @@ case 2:
 [5, 6, 3, 4, 5, 6]
 ```
  
-  ## 
-##### Syntax:[Info]()
+  ## fill()
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
 ```JavaScript 
-
+array.fill(value[, start[, end]])
 ```
-Description
+The fill() method fills all the elements of an array
+from a start index to an end index with a static value. 
+The end index is not included
 ##### Example:
 ```JavaScript
 
