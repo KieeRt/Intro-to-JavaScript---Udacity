@@ -15,8 +15,10 @@ add new element at the end of arrays
 var array =["apple", "book"];
 array.push("pen"); 
 ```
-##### Output: [ "book", "book", "pen"]
-
+##### Output: 
+```
+[ "book", "book", "pen"]
+```
 ## pop()
 ##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 ```JavaScript 
@@ -29,7 +31,9 @@ var array =["book", "apple", "pen"];
 array.pop();
 ```
 ##### Output:
+```
  [ "book", "apple"]
+ ```
  
 ## 
 ##### Syntax:[Info]
