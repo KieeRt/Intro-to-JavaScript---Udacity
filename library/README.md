@@ -111,12 +111,17 @@ from a start index to an end index with a static value.
 The end index is not included
 ##### Example:
 ```JavaScript
+[1, 2, 3].fill(4);               // Output: [4, 4, 4]
+[1, 2, 3].fill(4, 1);            // Output: [1, 4, 4]
+[1, 2, 3].fill(4, 1, 2);         // Output: [1, 4, 3]
+[1, 2, 3].fill(4, 1, 1);         // Output: [1, 2, 3]
+[1, 2, 3].fill(4, 3, 3);         // Output: [1, 2, 3]
+[1, 2, 3].fill(4, -3, -2);       // Output: [4, 2, 3]
+[1, 2, 3].fill(4, NaN, NaN);     // Output: [1, 2, 3]
+[1, 2, 3].fill(4, 3, 5);         // Output: [1, 2, 3]
+Array(3).fill(4);                // Output: [4, 4, 4]
+```
 
-```
-##### Output:
-```
-
-```
  
   ## 
 ##### Syntax:[Info]()
