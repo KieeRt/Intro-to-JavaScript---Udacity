@@ -14,11 +14,9 @@ add new element at the end of arrays
 ```JavaScript
 var array =["apple", "book"];
 array.push("pen"); 
+//Output: [ "book", "book", "pen"]
 ```
-##### Output: 
-```
-[ "book", "book", "pen"]
-```
+
 ## pop()
 ##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 ```JavaScript 
@@ -29,11 +27,9 @@ Remove last element from array
 ```JavaScript
 var array =["book", "apple", "pen"];
 array.pop();
+//Output:[ "book", "apple"]
 ```
-##### Output:
-```
- [ "book", "apple"]
- ```
+
  
  ## concat()
 ##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat#Concatenating_values_to_an_array)
@@ -50,6 +46,7 @@ var numb2 = [4,5,6];
 var numb3 = [7,8,9];
 var numbW = ["x", "y"];
 numbW.concat(numb1, numb2, numb3)
+//Output:["x", "y", 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 case 2:
 ```
@@ -57,16 +54,9 @@ var numb1 = [1,2,3];
 var numb2 = [4,5,6];
 var numb3 = [7,8,9];
 var numb= numb1.concat(numb2, numb3);
+//Output:[1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
-##### Output:
-case 1:
-```
-["x", "y", 1, 2, 3, 4, 5, 6, 7, 8, 9]
-```
-case 2:
-```
-[1, 2, 3, 4, 5, 6, 7, 8, 9]
-```
+
  
   ## copyWithin()
 ##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
@@ -85,21 +75,15 @@ case 1:
 ```JavaScript
 array = [ 1, 2, 3];
 array.copyWithin(0,1,2);
+//Output:[ 2, 2, 3]
 ```
 case 2:
 ```
 array = [ 1, 2, 3, 4, 5, 6];
 array.copyWithin(0, 4);
+//Output:[5, 6, 3, 4, 5, 6]
 ```
-##### Output:
-case 1:
-```
-[ 2, 2, 3]
-```
-case 2:
-```
-[5, 6, 3, 4, 5, 6]
-```
+
  
   ## fill()
 ##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
