@@ -41,7 +41,7 @@ array.pop();
 var new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
 ```
 The concat() method is used to merge two or more arrays. This method does not change the existing arrays,
-but instead returns a new arr
+but instead returns a new array
 ##### Example:
 case 1:
 ```JavaScript
@@ -81,12 +81,24 @@ from where begin copying,If omitted coming from 0
 end:
 until where gonna copy, last index  excluding and if ommited copyWithin will copy until the end of array
 ##### Example:
+case 1:
 ```JavaScript
-
+array = [ 1, 2, 3];
+array.copyWithin(0,1,2);
+```
+case 2:
+```
+array = [ 1, 2, 3, 4, 5, 6];
+array.copyWithin(0, 4);
 ```
 ##### Output:
+case 1:
 ```
-
+[ 2, 2, 3]
+```
+case 2:
+```
+[5, 6, 3, 4, 5, 6]
 ```
  
   ## 
