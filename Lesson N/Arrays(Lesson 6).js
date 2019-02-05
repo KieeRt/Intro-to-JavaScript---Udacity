@@ -27,7 +27,7 @@ var companion = "Inara";
 var mercenary = "Jayne";
 var mechanic = "Kaylee";
 
-var crew =[capital="Mal", second = "Zoe", pilot = "Wash", companion = "Inara", mercenary = "Jayne", mechanic = "Kaylee"];
+var crew =[captain, second, pilot, companion, mercenary, mechanic];
 console.log(crew);
 -------------------------------------------------------------------------------------------
 8)
