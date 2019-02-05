@@ -249,24 +249,66 @@ months.splice(4, 1, 'May');
 console.log(months);
 // output: Array ['Jan', 'Feb', 'March', 'April'
 ```
-  ## 
-##### Syntax:[Info]()
+  ## toFixed()
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
 ```JavaScript 
-
+ varibles.toFixed([digits])
 ```
-Description
+The toFixed() method formats a number using fixed-point notation.
 ##### Example:
 ```JavaScript
+var numObj = 12345.6789;
 
+numObj.toFixed();       // Returns '12346': note rounding, no fractional part
+numObj.toFixed(1);      // Returns '12345.7': note rounding
+numObj.toFixed(6);      // Returns '12345.678900': note added zeros
+(1.23e+20).toFixed(2);  // Returns '123000000000000000000.00'
+(1.23e-10).toFixed(2);  // Returns '0.00'
+2.34.toFixed(1);        // Returns '2.3'
+2.35.toFixed(1);        // Returns '2.4'. Note it rounds up
+2.55.toFixed(1);        // Returns '2.5'. Note it rounds down - see warning above
+-2.34.toFixed(1);       // Returns -2.3 (due to operator precedence, negative number literals don't return a string...)
+(-2.34).toFixed(1);     // Returns '-2.3' (...unless you use parentheses)
 ```
-  ## 
-##### Syntax:[Info]()
+  ## toLocaleString()
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString)
 ```JavaScript 
-
+numObj.toLocaleString([locales [, options]])
 ```
-Description
+The toLocaleString() method converts a Date object to a string, using locale settings.
 ##### Example:
 ```JavaScript
+var number = 123456.789;
 
+// request a currency format
+console.log(number.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' }));
+// → 123.456,79 €
+
+// the Japanese yen doesn't use a minor unit
+console.log(number.toLocaleString('ja-JP', { style: 'currency', currency: 'JPY' }))
+// → ￥123,457
+
+// limit to three significant digits
+console.log(number.toLocaleString('en-IN', { maximumSignificantDigits: 3 }));
+// → 1,23,000
+
+// Use the host default language with options for number formatting
+var num = 30000.65;
+console.log(num.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2}));
+// → "30,000.65" where English is the default language, or
+// → "30.000,65" where German is the default language, or
+// → "30 000,65" where French is the default language
 ```
-
+##
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift")
+```JavaScript
+array.unshift(element1[, ...[, elementN]])
+```
+The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+##### Example:
+```JavaScript
+var array =["book", "apple", "pen"];
+array.unshift("bad", "boys", "2");
+//Return new length (6) and new array will be : 
+// ["bad", "boys", "2", "book", "apple", "pen"]
+```
