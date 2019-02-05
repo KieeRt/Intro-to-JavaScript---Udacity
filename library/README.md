@@ -1,8 +1,9 @@
-This is minimalist list of methods you will need during your course,
-these all methods will be explain during course on different step. 
+###### This is minimalist list of methods you will need during your course,
+###### these all methods will be explain during course on different step. 
 
-Reason of this list is to  organize better all methods
-Tip you to use [Mozilla Developer site](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for major documentation
+###### Reason of this list is to  organize better all methods
+
+###### Tip you to use [Mozilla Developer site](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for major documentation
 
 ## push() 
 ##### Syntax: [Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
