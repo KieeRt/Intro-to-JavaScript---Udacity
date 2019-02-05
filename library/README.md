@@ -179,6 +179,42 @@ jelly donut
 chocolate donut"
 glazed donut*/
 ```
+  ## map()
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+```JavaScript
+var new_array = arr.map(function callback(currentValue[, index[, array]])
+```
+The map() method creates a new array with the results of calling a provided function on every element in the calling array.
+**currentValue**(optional):The value of the current element being processed in the array.
+
+**index**(optional):The index of the current element being processed in the array.
+
+**array**(optional):The array map was called upon.
+
+**thisArg**(optional):Value to use as this (i.e the reference Object) when executing callback.
+##### Example:
+```JavaScript
+
+```
+  ## Number()
+ ##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+ ```JavaScript
+ Number(value);
+ ```
+ Convert numeric strings and null to numbers
+ ##### Examples:
+```JavaScript
+Number('123')     // 123
+Number('12.3')    // 12.3
+Number('123e-1')  // 12.3
+Number('')        // 0
+Number(null)      // 0 
+Number('0x11')    // 17
+Number('0b11')    // 3
+Number('0o11')    // 9
+Number('foo')     // NaN
+Number('100a')    // NaN
+```
   ## join()
 ##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 ```JavaScript 
