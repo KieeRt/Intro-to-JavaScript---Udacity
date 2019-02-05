@@ -19,7 +19,7 @@ You don't need to type out the actual strings, just use the provided variables.
 /*
  * Programming Quiz: Building the Crew (6-2)
  */
-```JavaScript
+
 var captain = "Mal";
 var second = "Zoe";
 var pilot = "Wash";
@@ -29,7 +29,7 @@ var mechanic = "Kaylee";
 
 var crew =[captain, second, pilot, companion, mercenary, mechanic];
 console.log(crew);
-```
+
 -------------------------------------------------------------------------------------------
 8)
 /* QUEST:
