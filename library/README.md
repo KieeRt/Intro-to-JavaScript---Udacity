@@ -163,6 +163,19 @@ CHOCOLATE DONUT HOLE
 GLAZED DONUT HOLE*/
 ```
 ***!CAREFUL***
-method
+```JavaScript
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+donuts.forEach(function(good){ 
+  good += " hole";
+  good = good.toUpperCase();
+  
+});
+console.log(array);//out of function
+/* output:
+jelly donut
+chocolate donut"
+glazed donut*/
+```
 
  
