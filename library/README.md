@@ -110,15 +110,40 @@ Array(3).fill(4);                // Output: [4, 4, 4]
   ## forEach()
 ##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 ```JavaScript 
-array.forEach(function callback());
+array.forEach(function callback(currentValue, index, array, thisArg));
+
 ```
-Description
+**currentValue**(optional):The value of the current element being processed in the array.
+**index**(optional):The index of the current element being processed in the array.
+**array**(optional):The array that forEach() is being applied to.
+**thisArg**(optional):Value to use as this (i.e the reference Object) when executing callback.
+The forEach() method executes a provided function once for each array element.
+
+
 ##### Example:
 ```JavaScript
+var array1 = ['a', 'b', 'c'];
+
+array1.forEach(function(element) {
+  console.log(element);
+});
+
+// output: "a"
+// output: "b"
+// output: "c"
 
 ```
-##### Output:
-```
+```JavaScript
+function addOne(currentValue, index, array) {
+	array[index]++;
+}
+var array = ['1','2','3'];
+
+array.forEach(addOne);
+
+console.log(array);
+// output:['2', '3', '4']
 
 ```
+
  
