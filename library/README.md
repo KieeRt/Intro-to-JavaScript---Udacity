@@ -178,7 +178,7 @@ chocolate donut"
 glazed donut*/
 ```
   ## join()
-##### Syntax:[Info]()
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 ```JavaScript 
 array.join([separator]);
 ```
@@ -193,35 +193,61 @@ array.join(', ');  // 'Wind, Rain, Fire'
 array.join(' + '); // 'Wind + Rain + Fire'
 array.join('');    // 'WindRainFire'
 ```
-  ## 
-##### Syntax:[Info]()
+  ## shift()
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
 ```JavaScript 
-
+array.shift();
 ```
-Description
+Removes the first element from an array and returns that element.
 ##### Example:
 ```JavaScript
-
+var array =["book", "apple", "pen"];
+array.shift();
+//Output: [apple, pen]
 ```
-  ## 
-##### Syntax:[Info]()
+  ## slice()
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 ```JavaScript 
-
+array.slice(begin, end);
 ```
-Description
+The slice() method returns a shallow copy of a portion of an array into a new array 
+object selected from begin to end (end not included).
+The original array will not be modified.
 ##### Example:
 ```JavaScript
-
+var array =["book", "apple", "pen"];
+array.slice(0,2);
+//Output: ["book", "apple"]
 ```
-  ## 
-##### Syntax:[Info]()
+  ## splice()
+##### Syntax:[Info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 ```JavaScript 
-
+array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
 ```
-Description
+The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements.
+Return removed elements
+**start:** index at which to start changing the array
+**deleteCount:** (optional) number of elements which gonna be removed
+**item1...N:** (optional) The elements to add to the array, beginning at the start index.
 ##### Example:
 ```JavaScript
+var array =["1", "two", "3"];
+array.splice(1, 1, "2"); 
+console.log(array);
+/*output: ['1', '2', '3']
+ return 'two'*/
+```
+```JavaScript
+var months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+// inserts at 1st index position
+console.log(months);
+// output: Array ['Jan', 'Feb', 'March', 'April', 'June']
 
+months.splice(4, 1, 'May');
+// replaces 1 element at 4th index
+console.log(months);
+// output: Array ['Jan', 'Feb', 'March', 'April'
 ```
   ## 
 ##### Syntax:[Info]()
