@@ -145,5 +145,18 @@ console.log(array);
 // output:['2', '3', '4']
 
 ```
+```JavaScript
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+donuts.forEach(function(good){ 
+  good += " hole";
+  good = good.toUpperCase();
+  console.log(good);
+});
+/* output:
+JELLY DONUT HOLE
+CHOCOLATE DONUT HOLE
+GLAZED DONUT HOLE*/
+```
 
  
