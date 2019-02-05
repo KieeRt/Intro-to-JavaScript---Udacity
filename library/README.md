@@ -114,9 +114,13 @@ array.forEach(function callback(currentValue, index, array, thisArg));
 
 ```
 **currentValue**(optional):The value of the current element being processed in the array.
+
 **index**(optional):The index of the current element being processed in the array.
+
 **array**(optional):The array that forEach() is being applied to.
+
 **thisArg**(optional):Value to use as this (i.e the reference Object) when executing callback.
+
 The forEach() method executes a provided function once for each array element.
 
 
