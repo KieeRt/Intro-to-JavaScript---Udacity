@@ -1,5 +1,5 @@
 # Intro-to-JavaScript---Udacity 2019
-This is documentation and solved problems of Udacity's course [Intro to JavaScript](https://eu.udacity.com/course/intro-to-javascript--ud803)
+This is  a documentation and solved problems of Udacity's course [Intro to JavaScript](https://eu.udacity.com/course/intro-to-javascript--ud803)
 
 I have done two sections:
 ### [Problems solved](https://github.com/KieeRt/Intro-to-JavaScript---Udacity/tree/master/Lesson%20N)
